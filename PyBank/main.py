@@ -76,8 +76,8 @@ Financial Analysis
 Total Months: {num_months}
 Total: ${p_l:.0f}
 Average Change: ${average_change:.2f}
-Greatest Increase in Profits: {max_increase_period[0]}: ${max_increase_period[1]}
-Greatest Decrease in Profits: {max_decrease_period[0]}: ${max_decrease_period[1]}
+Greatest Increase in Profits: {max_increase_period[0]} (${max_increase_period[1]})
+Greatest Decrease in Profits: {max_decrease_period[0]} (${max_decrease_period[1]})
 """, file = out)
 
 # Move text file to Analysis
